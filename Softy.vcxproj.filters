@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\entry.cpp" />
+    <ClCompile Include="library\imgui\imgui.cpp" />
+    <ClCompile Include="library\imgui\imgui_demo.cpp" />
+    <ClCompile Include="library\imgui\imgui_draw.cpp" />
+    <ClCompile Include="library\imgui\imgui_tables.cpp" />
+    <ClCompile Include="library\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="library\imgui\imgui-SFML.cpp" />
+    <ClCompile Include="src\window\Window.cpp" />
+    <ClCompile Include="src\component\ComponentHandler.cpp" />
+    <ClCompile Include="src\config\ConfigHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library\imgui\imconfig.h" />
+    <ClInclude Include="library\imgui\imgui.h" />
+    <ClInclude Include="library\imgui\imgui_internal.h" />
+    <ClInclude Include="library\imgui\imstb_rectpack.h" />
+    <ClInclude Include="library\imgui\imstb_textedit.h" />
+    <ClInclude Include="library\imgui\imstb_truetype.h" />
+    <ClInclude Include="src\window\include.h" />
+    <ClInclude Include="src\config\ConfigHandler.h" />
+    <ClInclude Include="src\config\include.h" />
+    <ClInclude Include="library\imgui\imconfig-SFML.h" />
+    <ClInclude Include="library\imgui\imgui-SFML.h" />
+    <ClInclude Include="library\imgui\imgui-SFML_export.h" />
+    <ClInclude Include="src\window\Window.h" />
+    <ClInclude Include="src\component\ComponentHandler.h" />
+    <ClInclude Include="src\component\include.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\config.json" />
+    <None Include="imgui.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\Roboto-Bold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\backgroundImage.png" />
+  </ItemGroup>
+</Project>
